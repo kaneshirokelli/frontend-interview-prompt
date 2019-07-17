@@ -1,0 +1,25 @@
+{
+  "name": "frontend-interview-prompt",
+  "version": "1.0.0",
+  "description": "This is the homework assignment given to prospective frontend engineers. This task should not take more than 4 hours of your time. This prompt itself should last 3.5 hours, with half an hour to fill out the remaining questions on this README.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaneshirokelli/frontend-interview-prompt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaneshirokelli/frontend-interview-prompt/issues"
+  },
+  "homepage": "https://github.com/kaneshirokelli/frontend-interview-prompt#readme"
+}
