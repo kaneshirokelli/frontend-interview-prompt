@@ -22,4 +22,14 @@ $(document).ready(function () {
           $('#filter-dropdown').toggleClass('active');
       });
 
+      $(window).resize(function() {
+        if ($(window).width() < 1200) {
+           $('#sidebar').addClass('active');
+          
+        }
+       else {
+          $('#sidebar').removeClass('active');
+       }
+      });
+
   });
