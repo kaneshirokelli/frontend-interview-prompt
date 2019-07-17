@@ -43,11 +43,11 @@ Browser: Chrome Version 75.0
 The hamburger navigation took me the longest.
 The easiest part was laying out the dashboard. 
 - What part of the design didn't make sense? Did you change anything?
-The gray box next to the hamburger nav. I believe it was suppose to be another search box for mobile. But I changed it to be the same design as desktop. 
+The gray box next to the hamburger nav. I believe it was suppose to be another search box for mobile. But I changed it to be the same design as desktop. I also had the hamburber nav toggle open and close on both desktop and mobile. But on mobile the navigation goes over the content. 
 - If you had more time, what would you have liked to implement? 
 The graphs and have them swap out data, when you toggle the buttons. 
 - What did you have to research or lookup while working on this? 
-Hamburger nav pushing content over. 
+I looked up the hamburger nav pushing content over. 
 
 
 
