@@ -35,11 +35,19 @@ Before moving onto these, please make sure you are happy with the overall look o
 
 ## Questions To Answer: 
 This is your chance to talk about the prompt! Please provide these answers on your README. 
-- Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
+- Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in:
+Screen Resolution: 1400x900 
+OS: OS X 10.11
+Browser: Chrome Version 75.0  
 - What part of the design did you get stuck on? What took the most time? Similarly, what was the easiest part? 
+The hamburger navigation took me the longest.
+The easiest part was laying out the dashboard. 
 - What part of the design didn't make sense? Did you change anything?
+The gray box next to the hamburger nav. I believe it was suppose to be another search box for mobile. But I changed it to be the same design as desktop. 
 - If you had more time, what would you have liked to implement? 
+The graphs and have them swap out data, when you toggle the buttons. 
 - What did you have to research or lookup while working on this? 
+Hamburger nav pushing content over. 
 
 
 

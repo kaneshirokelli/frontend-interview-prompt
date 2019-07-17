@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Luxury Presence</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+        <div class="search">
+            <i class="glyphicon glyphicon-search"></i>
+            <input 
+            type="text" 
+            placeholder="Search..." 
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Search...'" />
+        </div> 
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">
+          </button>
+          <div class="dropdown-menu" id="top-dropdown">
+            <a class="dropdown-item" href="#">Log Out</a>
+            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">FAQ</a>
+          </div>
+        </div>
+
+        <img class="profile-pic" src="imgs/profile_pic.jpg"></div>
+	</header>
+
+    
+
+	<div class="wrapper">
+
+        <div id="content">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-justify"></i>
+            </button>
+        </div>
+
+        <nav id="sidebar" class="active">
+                <!-- Sidebar Header -->
+                <div class="sidebar-header">
+                   
+                </div>
+
+                <!-- Sidebar Links -->
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#homeSubmenu" data-toggle="collapse">
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            <span>Calendar</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-file"></i>
+                            <span>Documentation</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-home"></i>
+                            <span>Dashboard</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-fire"></i>
+                            <span>Admin Plugins</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-check"></i>
+                            <span>Admin Forms</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-book"></i>
+                            <span>Admin Layouts</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled components">
+                     <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-stats"></i>
+                            <span>Information Pannels</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                            <span>Ecommerce</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled components">
+                     <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-gift"></i>
+                            <span>UI Elements</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-align-justify"></i>
+                            <span>Form Elements</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-asterisk"></i>
+                            <span>Plugins</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-duplicate"></i>
+                            <span>Pages</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled components">
+                     <li>
+                        <a href="#">
+                            <div class="circle yellow"></div>
+                            <span>Executive Meeting</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="circle orange"></div>
+                            <span>HelpDesk Redesign</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="circle purple"></div>
+                            <span>Sony Board Meeting</span>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+
+        <div id="dashboard">
+            <div class="title">
+                <div class="title-left">
+                    <h1>Dashboard</h1>
+                    <p>dashboard and statistics<p>
+                </div>
+                
+
+                 <div class="btn blue-btn">
+                     17 January 2016 - 15 February 2016
+                     <i class="glyphicon glyphicon-chevron-down"></i>
+
+                    <div class="dropdown" id="blue-dropdown">
+                        <a class="dropdown-item" href="#">15 February 2016 - March 2016</a>
+                        <a class="dropdown-item" href="#">15 March 2016 - April 2016</a>
+                        <a class="dropdown-item" href="#">15 April 2016 - May  2016</a>
+                        <a class="dropdown-item" href="#">15 May 2016 - June  2016</a>
+                        <a class="dropdown-item" href="#">15 June 2016 - July  2016</a>
+                      </div>
+                 </div>
+            </div>
+            
+
+
+            <div id="stats">
+                
+                <ul class="total-wrap">
+                    <h2>Totals <span>Last Week</span></h2>
+
+                    <li class="total">
+                       <h1>597</h1>
+                       <p>News Feedback</p>
+                    </li>
+                    <li class="total">
+                       <h1>16.6M$</h1>
+                       <p>Total Product</p>
+                    </li>
+                    <li class="total">
+                       <h1>7.5K</h1>
+                       <p>New Orders</p>
+                    </li>
+                    <li class="total">
+                        <h1>+48%</h1>
+                        <p>Brand Popularity</p>
+                    </li>
+                </ul>
+
+
+                <div class="bottom-wrap">
+                    
+                    <div class="charts site-visits">
+                        <h2>Site Visits <span>Weekly Stats</span></h2>
+                        <ul class="btn-wrap">
+                            <li class="btn" id="new">New</li>
+                            <li class="btn" id="returning">Returning</li>
+                        </ul>
+                        <img src="imgs/site_visits.jpg">
+                    </div>
+
+                    <div class="charts revenue">
+                        <h2>Revenue <span>Monthly Stats</span></h2>
+
+                        <div class="btn" id="filter">
+                            Filter Range
+                            <i class="glyphicon glyphicon-chevron-down"></i>
+
+                            <div class="dropdown" id="filter-dropdown">
+                                <a class="dropdown-item" href="#">Sales</a>
+                                <a class="dropdown-item" href="#">Interest</a>
+                              </div>
+                        </div>
+                        <img src="imgs/revenue.jpg">
+
+
+                    </div>
+                </div>
+            </div>
+
+             <p class="copyright">2019 TemplateMonster</p>
+        </div>
+    </div>
+
+
+	
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+
+        $('#dropdownMenuButton').on('click', function () {
+            $('#top-dropdown').toggleClass('active');
+        });
+
+        $('.blue-btn').on('click', function (){
+            $('#blue-dropdown').toggleClass('active');
+        });
+
+        $('#filter').on('click', function (){
+            $('#filter-dropdown').toggleClass('active');
+        });
+
+    });
+</script>
+
+
+</html>
