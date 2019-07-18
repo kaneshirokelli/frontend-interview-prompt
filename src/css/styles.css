@@ -295,25 +295,30 @@ i.glyphicon.glyphicon-chevron-down {
           border: 1px solid #31b5e0;
           color: #31b5e0; }
     #dashboard .bottom-wrap .revenue {
-      width: 100%; }
+      width: 100%;
+      position: relative; }
       #dashboard .bottom-wrap .revenue #filter {
         width: 100%;
         margin: 0 auto;
         background-color: #31b5e0;
-        color: #fff; }
+        color: #fff;
+        position: absolute;
+        right: 0; }
       #dashboard .bottom-wrap .revenue #filter .dropdown-item {
         color: #fff; }
       @media (min-width: 1200px) {
-        #dashboard .bottom-wrap .revenue h2 {
-          width: 70%;
-          float: left; }
-        #dashboard .bottom-wrap .revenue #filter {
-          width: 30%;
-          float: right;
-          margin-top: 20px; }
-        #dashboard .bottom-wrap .revenue #filter .dropdown-item:hover {
-          background-color: #31b5e0;
-          color: #c5c5c5; } }
+        #dashboard .bottom-wrap .revenue {
+          position: relative; }
+          #dashboard .bottom-wrap .revenue h2 {
+            width: 70%;
+            float: left; }
+          #dashboard .bottom-wrap .revenue #filter {
+            width: 30%;
+            float: right;
+            margin-top: 20px; }
+          #dashboard .bottom-wrap .revenue #filter .dropdown-item:hover {
+            background-color: #31b5e0;
+            color: #c5c5c5; } }
       #dashboard .bottom-wrap .revenue #filter-dropdown {
         display: none; }
       #dashboard .bottom-wrap .revenue #filter-dropdown.active {
